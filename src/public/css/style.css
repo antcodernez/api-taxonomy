@@ -1,0 +1,143 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5f8e0; /* Light green background for nature vibe */
+    color: #333;
+    padding: 20px;
+}
+
+/* Page container */
+.ui-content {
+    background-color: #fff; /* White background for content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.ui-header {
+    background-color: #4CAF50; /* Dark green for the header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ui-header h1 {
+    font-size: 24px;
+}
+
+/* Form Styling */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f3fdf2; /* Very light green background for inputs */
+}
+
+form textarea {
+    height: 120px;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+    background-color: #4CAF50; /* Green background for the submit button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* List of records */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e3f9e5; /* Light green for list items */
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li strong {
+    color: #388e3c; /* Darker green for scientific names */
+}
+
+ul li:hover {
+    background-color: #c8f7c5; /* Slightly darker green when hovering over list items */
+}
+
+/* General Button Styles */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Edit Button Style */
+button.editBtn {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+}
+
+button.editBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Delete Button Style */
+button.deleteBtn {
+    background-color: #f44336; /* Red color */
+    color: white;
+}
+
+button.deleteBtn:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+/* Focus outline for better accessibility */
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form input, form textarea {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}

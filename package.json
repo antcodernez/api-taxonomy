@@ -1,0 +1,32 @@
+{
+  "name": "api-taxonomy",
+  "version": "1.0.0",
+  "description": "This is a API with Jquery mobile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antcodernez/api-taxonomy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antcodernez/api-taxonomy/issues"
+  },
+  "homepage": "https://github.com/antcodernez/api-taxonomy#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "morgan": "^1.10.0"
+  }
+}
